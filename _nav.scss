@@ -1,0 +1,55 @@
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid pink;
+
+  label {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   margin: 0 5%;
+   font-weight:bold;
+   font-size: 16px;
+
+  }
+  .logo{
+   background-image: linear-gradient(to right, purple, orange);
+   background-size: 100%;
+   background-repeat: repeat;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: blue;
+  }
+  
+
+  ul {
+    list-style: none;
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+
+    a {
+      color: grey;
+      text-decoration: none;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  button {
+    background-image:linear-gradient(to right, purple, orange);
+  }
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5% 0 25%;
+    color: white;
+    border-radius: 25px;
+    width: 15%;
+    height: 4%;
+    background-size: cover;
+    border-style: none;
+  }
+}

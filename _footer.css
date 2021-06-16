@@ -1,0 +1,12 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid pink;
+}
+footer h6 {
+  margin-right: 70vw;
+}
+footer .fa-instagram-square {
+  margin-left: 5%;
+}

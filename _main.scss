@@ -1,0 +1,39 @@
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 2px solid pink;
+  padding: 5%;
+
+  div {
+    width: 40vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+    h1{
+      margin: 0;
+    }
+
+    p{
+      margin-bottom: 10%;
+    }
+    
+    
+    button {
+      color: pink;
+      width: 40%;
+      height: 3vh;
+      border: 1px solid lightgrey;
+      border-radius: 25px;
+      background-color: white;
+    }
+
+  }
+
+
+  img {
+    width: 50vw;
+  }
+}

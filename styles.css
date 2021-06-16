@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid pink;
+}
+nav label {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 5%;
+  font-weight: bold;
+  font-size: 16px;
+}
+nav .logo {
+  background-image: linear-gradient(to right, purple, orange);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: blue;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  width: 40vw;
+  justify-content: space-between;
+}
+nav ul a {
+  color: grey;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+}
+nav button {
+  background-image: linear-gradient(to right, purple, orange);
+}
+nav button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5% 0 25%;
+  color: white;
+  border-radius: 25px;
+  width: 15%;
+  height: 4%;
+  background-size: cover;
+  border-style: none;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 2px solid pink;
+  padding: 5%;
+}
+main div {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+main div h1 {
+  margin: 0;
+}
+main div p {
+  margin-bottom: 10%;
+}
+main div button {
+  color: pink;
+  width: 40%;
+  height: 3vh;
+  border: 1px solid lightgrey;
+  border-radius: 25px;
+  background-color: white;
+}
+main img {
+  width: 50vw;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid pink;
+}
+footer h6 {
+  margin-right: 70vw;
+}
+footer .fa-instagram-square {
+  margin-left: 5%;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
